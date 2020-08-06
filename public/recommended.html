@@ -4,7 +4,7 @@
         <title>WebApp's Landing Page</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="styles/zipcode.css">
+        <link rel="stylesheet" type="text/css" href="styles/recommended.css">
     </head>
 
 <body>
@@ -14,15 +14,13 @@
         <p>some greeting message to users!</p>
     </header>
 
-    <h1>To Get WebApp's Recommended</h1>
-    <br>
-    <h1>Enter your ZipCode . . .</h1>
+    <h1>Our Top Picks For You . . .</h1>
     <br>
     <br>
-    <form method="POST" action="recommended.html"> 
-        <input id="userzip" type="text" value="" required pattern="[0-9]*">
-        <input type="submit" text="Recommend Me">
-      </form>
+    <br>
+    <div id="recommended-list">
+    </div>
+    <script src="scripts.js"></script>
    
     
 </body>
