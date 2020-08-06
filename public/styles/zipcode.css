@@ -1,0 +1,26 @@
+header {
+    height: 30vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTfPCOV4pIsWJu28iyoxRt54ftG-dTJ3JKqR5VtYtTS493OkKs8n_abQd4KYMDMzSApXX3r9kblnwHwq-4rhgQwbg&usqp=CAU&ec=45688577");
+    /* flex-box thing */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover; 
+    margin-bottom: 100px;
+   }
+   
+   * {
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+   }
+   
+   
+   h1{
+       text-align: center;
+   }
+   
+   form{
+       text-align: center;
+   }
